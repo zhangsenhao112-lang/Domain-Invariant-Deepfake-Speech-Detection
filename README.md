@@ -245,20 +245,3 @@ experiments:
 ```bash
 python evaluate.py --score-name my_model.txt --metric-mode corrected
 ```
-
-Artifact hashes can be checked after cloning:
-
-```bash
-sha256sum -c ARTIFACTS.sha256
-```
-
-## Checkpoints and results
-
-Pretrained checkpoints and the final citation will be added with the paper
-release. Model checkpoints and generated score files remain ignored by Git and
-should be hosted separately when needed.
-
-## Acknowledgements and license
-
-See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for upstream projects.
-The repository-level code is released under the [MIT License](LICENSE).
